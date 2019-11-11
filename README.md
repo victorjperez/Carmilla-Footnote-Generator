@@ -1,6 +1,6 @@
 # Carmilla Footnote Generator
 
-## 🗒Files:
+## 🗒 Files:
 
 ### main.py - main python file, to be executed
 
@@ -12,5 +12,5 @@
     determine terms that need to have a footnote,
     then generate footnotes for those words
     
-## 🈂️Interpretation Process
+## 🈂️ Interpretation Process
   Code should avoid catching words that may require background information, such as real-world locations, character names,
