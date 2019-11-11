@@ -12,7 +12,8 @@ def prepareText(text):
 
     try:
         content = re.search(
-            r'\*\*\*\s[a-zA-Z\s]+\s\*\*\*\s*(.+?)\s*\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*', text).group(1)
+            r'\*\*\*\s[a-zA-Z\s]+\s\*\*\*\s*((?:.*(?:\s*))+?)\s*\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*', text).group(1)
+
     except AttributeError:
         # header/footers with enclosed text not found
         content = ''
@@ -31,9 +32,8 @@ url = "http://www.gutenberg.org/cache/epub/10007/pg10007.txt"
 response = request.urlopen(url)
 raw = response.read().decode('utf8')
 
-tokens = word_tokenize(raw)
-
 text = prepareText(raw)
+tokens = word_tokenize(text)
 
 # interpretText(text)
 print(findKeyWords(tokens))
