@@ -1,4 +1,4 @@
-# Carmilla Footnote Generator
+# 🧛🏻‍♀️ Carmilla Footnote Generator
 
 ## 🗒 Files:
 
