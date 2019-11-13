@@ -35,18 +35,29 @@ raw = response.read().decode('utf8')
 text = prepareText(raw)
 tokens = word_tokenize(text)
 lines = text.split('\n')
-paragraphs = []
-paragraphBuilder = ''
-for line in lines:
-    if (line != '\r'):
-        paragraphBuilder += line
+chapters = []
+chapterNames = []
+
+chapterRomanNumerals = ['PROLOGUE\r', 'I\r', 'II\r', 'III\r', 'IV\r', 'V\r', 'VI\r',
+                        'VII\r', 'VIII\r', 'IX\r', 'X\r', 'XI\r', 'XII\r', 'XIII\r', 'XIV\r', 'XV\r', 'XVI\r']
+chapterBuilder = ''
+for lineNumber, line in enumerate(lines):
+    if (line in chapterNames):
+        continue
+    if (line not in chapterRomanNumerals):
+        chapterBuilder += line+'\n'
     else:
-        if (paragraphBuilder != ''):
-            paragraphs.append(paragraphBuilder)
-        paragraphBuilder = ''
+        chapters.append(chapterBuilder)
+        chapterNames.append(lines[lineNumber+2])
+        chapterBuilder = ''
 
-for number, paragraph in enumerate(paragraphs):
-    print(str(number) + ": " + paragraph)
+chapterNames.pop(0)
+chapters.pop(0)
 
-    # interpretText(text)
-    # print(findKeyWords(tokens))
+for number, chapter in enumerate(chapters):
+    if (number < 5):
+        print(str(number) + ": " + chapter)
+
+print(chapterNames)
+# interpretText(text)
+#  # print(findKeyWords(tokens))
