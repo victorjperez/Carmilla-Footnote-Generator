@@ -40,10 +40,10 @@ such conscientious particularity_.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-I_A Guest_
+I_An Early Fright_
 
 In Styria, we, though by no means magnificent people, inhabit a castle,
 or schloss. A small income, in that part of the world, goes a great way.
@@ -214,10 +214,10 @@ by darkness.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-II_We Compare Notes_
+II_A Guest_
 
 I am now going to tell you something so strange that it will require all
 your faith in my veracity to believe my story. It is not only true,
@@ -498,10 +498,10 @@ by the two horsemen in the rear.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-III_Her Habits--A Saunter_
+III_We Compare Notes_
 
 We followed the _cortege_ with our eyes until it was swiftly lost to
 sight in the misty wood; and the very sound of the hoofs and the wheels
@@ -793,10 +793,10 @@ of her. We now laughed together over our momentary horrors.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-IV_A Wonderful Likeness_
+IV_Her Habits--A Saunter_
 
 I told you that I was charmed with her in most particulars.
 
@@ -1210,10 +1210,10 @@ doctor had been broaching, but I think I guess it now.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-V_A Very Strange Agony_
+V_A Wonderful Likeness_
 
 This evening there arrived from Gratz the grave, dark-faced son of the
 picture cleaner, with a horse and cart laden with two large packing
@@ -1381,10 +1381,10 @@ momentary energy.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-VI_Descending_
+VI_A Very Strange Agony_
 
 When we got into the drawing room, and had sat down to our coffee and
 chocolate, although Carmilla did not take any, she seemed quite herself
@@ -1551,10 +1551,10 @@ alive till morning.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-VII_Search_
+VII_Descending_
 
 It would be vain my attempting to tell you the horror with which, even
 now, I recall the occurrence of that night. It was no such transitory
@@ -1781,10 +1781,10 @@ had left it on bidding her good night. But Carmilla was gone.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-VIII_The Doctor_
+VIII_Search_
 
 At sight of the room, perfectly undisturbed except for our violent
 entrance, we began to cool a little, and soon recovered our senses
@@ -1927,10 +1927,10 @@ So our alarms were happily ended, and Carmilla restored to her friends.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-IX_Bereaved_
+IX_The Doctor_
 
 As Carmilla would not hear of an attendant sleeping in her room, my
 father arranged that a servant should sleep outside her door, so that
@@ -2161,10 +2161,10 @@ his horse on with his servant to the schloss.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-X_The Story_
+X_Bereaved_
 
 It was about ten months since we had last seen him: but that time had
 sufficed to make an alteration of years in his appearance. He had grown
@@ -2286,10 +2286,10 @@ you were so good as to promise."
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-XI_A Petition_
+XI_The Story_
 
 "With all my heart," said the General, with an effort; and after a short
 pause in which to arrange his subject, he commenced one of the strangest
@@ -2466,10 +2466,10 @@ the door.'
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-XII_The Woodman_
+XII_A Petition_
 
 "'Then we are to lose Madame la Comtesse, but I hope only for a few
 hours,' I said, with a low bow.
@@ -2647,10 +2647,10 @@ to have secured so charming a companion for my dear girl."
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-XIII_The Meeting_
+XIII_The Woodman_
 
 "There soon, however, appeared some drawbacks. In the first place,
 Millarca complained of extreme languor--the weakness that remained after
@@ -2840,10 +2840,10 @@ leaving us to hear the remainder of the General's strange story.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-XIV_Ordeal and Execution_
+XIV_The Meeting_
 
 "My beloved child," he resumed, "was now growing rapidly worse. The
 physician who attended her had failed to produce the slightest
@@ -3016,10 +3016,10 @@ Carmilla more; you will not find her here."
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]
-XV_Conclusion_
+XV_Ordeal and Execution_
 
 As he spoke one of the strangest looking men I ever beheld entered the
 chapel at the door through which Carmilla had made her entrance and her
@@ -3156,6 +3156,137 @@ have summarized my account of this last shocking scene.
 
 time. I forget all my life preceding that event, and for some time after
 
-[------------------------------[FOOTNOTES]------------------------------]
+[------------------------------[SUMMARY]------------------------------]
+
+[-----------------------------------------------------------------------]
+XVI_Conclusion_
+
+I write all this you suppose with composure. But far from it; I cannot
+think of it without agitation. Nothing but your earnest desire so
+repeatedly expressed, could have induced me to sit down to a task that
+has unstrung my nerves for months to come, and reinduced a shadow of the
+unspeakable horror which years after my deliverance continued to make my
+days and nights dreadful, and solitude insupportably terrific.
+
+Let me add a word or two about that quaint Baron Vordenburg, to whose
+curious lore we were indebted for the discovery of the Countess
+Mircalla's grave.
+
+He had taken up his abode in Gratz, where, living upon a mere pittance,
+which was all that remained to him of the once princely estates of his
+family, in Upper Styria, he devoted himself to the minute and laborious
+investigation of the marvelously authenticated tradition of Vampirism.
+He had at his fingers' ends all the great and little works upon
+the subject.
+
+"Magia Posthuma," "Phlegon de Mirabilibus," "Augustinus de cura pro
+Mortuis," "Philosophicae et Christianae Cogitationes de Vampiris," by
+John Christofer Herenberg; and a thousand others, among which I
+remember only a few of those which he lent to my father. He had a
+voluminous digest of all the judicial cases, from which he had extracted
+a system of principles that appear to govern--some always, and others
+occasionally only--the condition of the vampire. I may mention, in
+passing, that the deadly pallor attributed to that sort of revenants, is
+a mere melodramatic fiction. They present, in the grave, and when they
+show themselves in human society, the appearance of healthy life. When
+disclosed to light in their coffins, they exhibit all the symptoms that
+are enumerated as those which proved the vampire-life of the long-dead
+Countess Karnstein.
+
+How they escape from their graves and return to them for certain hours
+every day, without displacing the clay or leaving any trace of
+disturbance in the state of the coffin or the cerements, has always been
+admitted to be utterly inexplicable. The amphibious existence of the
+vampire is sustained by daily renewed slumber in the grave. Its horrible
+lust for living blood supplies the vigor of its waking existence. The
+vampire is prone to be fascinated with an engrossing vehemence,
+resembling the passion of love, by particular persons. In pursuit of
+these it will exercise inexhaustible patience and stratagem, for access
+to a particular object may be obstructed in a hundred ways. It will
+never desist until it has satiated its passion, and drained the very
+life of its coveted victim. But it will, in these cases, husband and
+protract its murderous enjoyment with the refinement of an epicure, and
+heighten it by the gradual approaches of an artful courtship. In these
+cases it seems to yearn for something like sympathy and consent. In
+ordinary ones it goes direct to its object, overpowers with violence,
+and strangles and exhausts often at a single feast.
+
+The vampire is, apparently, subject, in certain situations, to special
+conditions. In the particular instance of which I have given you a
+relation, Mircalla seemed to be limited to a name which, if not her real
+one, should at least reproduce, without the omission or addition of a
+single letter, those, as we say, anagrammatically, which compose it.
+
+Carmilla did this; so did Millarca.
+
+My father related to the Baron Vordenburg, who remained with us for two
+or three weeks after the expulsion of Carmilla, the story about the
+Moravian nobleman and the vampire at Karnstein churchyard, and then he
+asked the Baron how he had discovered the exact position of the
+long-concealed tomb of the Countess Mircalla? The Baron's grotesque
+features puckered up into a mysterious smile; he looked down, still
+smiling on his worn spectacle case and fumbled with it. Then looking
+up, he said:
+
+"I have many journals, and other papers, written by that remarkable man;
+the most curious among them is one treating of the visit of which you
+speak, to Karnstein. The tradition, of course, discolors and distorts a
+little. He might have been termed a Moravian nobleman, for he had
+changed his abode to that territory, and was, beside, a noble. But he
+was, in truth, a native of Upper Styria. It is enough to say that in
+very early youth he had been a passionate and favored lover of the
+beautiful Mircalla, Countess Karnstein. Her early death plunged him into
+inconsolable grief. It is the nature of vampires to increase and
+multiply, but according to an ascertained and ghostly law.
+
+"Assume, at starting, a territory perfectly free from that pest. How
+does it begin, and how does it multiply itself? I will tell you. A
+person, more or less wicked, puts an end to himself. A suicide, under
+certain circumstances, becomes a vampire. That specter visits living
+people in their slumbers; they die, and almost invariably, in the grave,
+develop into vampires. This happened in the case of the beautiful
+Mircalla, who was haunted by one of those demons. My ancestor,
+Vordenburg, whose title I still bear, soon discovered this, and in the
+course of the studies to which he devoted himself, learned a great
+deal more.
+
+"Among other things, he concluded that suspicion of vampirism would
+probably fall, sooner or later, upon the dead Countess, who in life had
+been his idol. He conceived a horror, be she what she might, of her
+remains being profaned by the outrage of a posthumous execution. He has
+left a curious paper to prove that the vampire, on its expulsion from
+its amphibious existence, is projected into a far more horrible life;
+and he resolved to save his once beloved Mircalla from this.
+
+"He adopted the stratagem of a journey here, a pretended removal of her
+remains, and a real obliteration of her monument. When age had stolen
+upon him, and from the vale of years, he looked back on the scenes he
+was leaving, he considered, in a different spirit, what he had done, and
+a horror took possession of him. He made the tracings and notes which
+have guided me to the very spot, and drew up a confession of the
+deception that he had practiced. If he had intended any further action
+in this matter, death prevented him; and the hand of a remote descendant
+has, too late for many, directed the pursuit to the lair of the beast."
+
+We talked a little more, and among other things he said was this:
+
+"One sign of the vampire is the power of the hand. The slender hand of
+Mircalla closed like a vice of steel on the General's wrist when he
+raised the hatchet to strike. But its power is not confined to its
+grasp; it leaves a numbness in the limb it seizes, which is slowly, if
+ever, recovered from."
+
+The following Spring my father took me a tour through Italy. We remained
+away for more than a year. It was long before the terror of recent
+events subsided; and to this hour the image of Carmilla returns to
+memory with ambiguous alternations--sometimes the playful, languid,
+beautiful girl; sometimes the writhing fiend I saw in the ruined church;
+and often from a reverie I have started, fancying I heard the light step
+of Carmilla at the drawing room door.
+
+       
+time. I forget all my life preceding that event, and for some time after
+
+[------------------------------[SUMMARY]------------------------------]
 
 [-----------------------------------------------------------------------]

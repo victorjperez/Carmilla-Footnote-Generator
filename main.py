@@ -50,6 +50,7 @@ for lineNumber, line in enumerate(lines):
         chapters.append(chapterBuilder)
         chapterNames.append(lines[lineNumber+2])
         chapterBuilder = ''
+chapters.append(chapterBuilder)
 
 firstSentenceofPrologue = chapterNames.pop(0)
 chapters[1] = chapters[1].lstrip()
@@ -72,7 +73,7 @@ for number, chapter in enumerate(chapters):
     if (number == 0):
         outputFile.write(firstSentenceofPrologue)
     else:
-        outputFile.write(chapterNames[number])
+        outputFile.write(chapterNames[number-1])
     outputFile.write(chapter)
     outputFile.write(
         'time. I forget all my life preceding that event, and for some time after')
