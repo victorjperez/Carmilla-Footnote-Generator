@@ -34,6 +34,19 @@ raw = response.read().decode('utf8')
 
 text = prepareText(raw)
 tokens = word_tokenize(text)
+lines = text.split('\n')
+paragraphs = []
+paragraphBuilder = ''
+for line in lines:
+    if (line != '\r'):
+        paragraphBuilder += line
+    else:
+        if (paragraphBuilder != ''):
+            paragraphs.append(paragraphBuilder)
+        paragraphBuilder = ''
 
-# interpretText(text)
-print(findKeyWords(tokens))
+for number, paragraph in enumerate(paragraphs):
+    print(str(number) + ": " + paragraph)
+
+    # interpretText(text)
+    # print(findKeyWords(tokens))
