@@ -77,7 +77,7 @@ for number, chapter in enumerate(chapters):
     outputFile.write(
         'time. I forget all my life preceding that event, and for some time after')
     outputFile.write(
-        '\n\n[------------------------------[FOOTNOTES]------------------------------]\n')
+        '\n\n[------------------------------[SUMMARY]------------------------------]\n')
     # outputFile.write(footnotes[number] + '\n')
     outputFile.write(
         '\n[-----------------------------------------------------------------------]\n')
