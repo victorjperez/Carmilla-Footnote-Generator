@@ -11,12 +11,24 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 # format of gutenburg book ending
 #end_of_txt = "\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*"
 
- # #book title
+  # #book title
   # title = ''
   # #book author
   # author = ''
   # #book year
   # year = ''
+
+def formatSummary(text):
+  # set lines to be 80 characters long
+  t1 = text.replace(r"\n", "")
+  lines = 1
+  new_summary
+
+  for i in range(len(t1)):
+    
+    if i >= lines*80 and t1[i] == " "
+
+  return
 
 # frequency table of entire novel = text
 def getFreqTable(text) -> dict:
@@ -75,15 +87,18 @@ def addSummary(sentences, sentence_value, threshold):
   return summary
 
   # chapter: chapter from the .txt file retrieved from gutenberg.org; in this case, Carmilla (1872)
-def summarizeText(text, chapter):
+def summarizeText(text, chapters):
 
-  sentences = sent_tokenize(chapter)
   freq_table = getFreqTable(text)
-  sentence_scores = scoreSentences(sentences, freq_table)
-  threshold = avgSentenceScore(sentence_scores)
-  summary = addSummary(sentences, sentence_scores, 1.5 * threshold)
+  footnotes = []
 
-  print(summary)
+  for chapter in chapters:
+    sentences = sent_tokenize(chapter)
+    sentence_scores = scoreSentences(sentences, freq_table)
+    threshold = avgSentenceScore(sentence_scores)
+    summary = addSummary(sentences, sentence_scores, 1.5 * threshold)
+    # formatted_summary = summary.replace("\\n", "")
+    footnotes.append(summary)
 
-  return
+  return footnotes
 # end func()

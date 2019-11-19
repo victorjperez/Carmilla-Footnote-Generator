@@ -20,6 +20,12 @@ def prepareText(text):
 
     return content
 
+def concatChapters(chapters):
+  text= ''
+  for chapter in chapters:
+      text += str(chapter)
+  return text
+
 
 # def findKeyWords(clippedText):
 #     frequencyDist = FreqDist(clippedText)
@@ -68,6 +74,9 @@ titleBlurb = chapters.pop(0)
 outputFile = open("output_file.txt", "w+")
 outputFile.write(titleBlurb)
 
+fullTextTrimmed = concatChapters(chapters)
+footnotes = summarizeText(fullTextTrimmed, chapters)
+
 for number, chapter in enumerate(chapters):
     outputFile.write(chapterRomanNumerals[number])
     if (number == 0):
@@ -76,11 +85,11 @@ for number, chapter in enumerate(chapters):
         outputFile.write(chapterNames[number-1])
     outputFile.write(chapter)
     outputFile.write(
-        'time. I forget all my life preceding that event, and for some time after')
-    outputFile.write(
         '\n\n[------------------------------[SUMMARY]------------------------------]\n')
-    # outputFile.write(footnotes[number] + '\n')
+    outputFile.write(footnotes[number] + '\n')
     outputFile.write(
         '\n[-----------------------------------------------------------------------]\n')
 
 outputFile.close()
+
+
