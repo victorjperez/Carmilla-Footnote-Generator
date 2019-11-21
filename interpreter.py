@@ -18,17 +18,27 @@ from nltk.tokenize import word_tokenize, sent_tokenize
   # #book year
   # year = ''
 
-def formatSummary(text):
+def formatSummary(summary):
   # set lines to be 80 characters long
-  t1 = text.replace(r"\n", "")
+  t1 = summary.replace("\n", " ")
+  t1 = t1.replace("\r", " ")
+  t1 = t1.replace("\r\n", " ")
+  t1 = t1.replace("\v", " ")
+  t1 = t1.replace("\x85", " ")
+  t1 = t1.replace("\f", " ")
+
+  t1 = re.sub(' +', ' ', t1)
+
   lines = 1
-  new_summary
+  # new_summary = ""
 
   for i in range(len(t1)):
-    
-    if i >= lines*80 and t1[i] == " "
-
-  return
+    if len(t1) <= 80:
+      return t1
+    if i >= lines*80 and t1[i] == " ":
+      lines = lines + 1
+      t1 = (t1[:i] + '\n' + t1[i:]).rstrip()
+  return t1
 
 # frequency table of entire novel = text
 def getFreqTable(text) -> dict:
@@ -97,8 +107,7 @@ def summarizeText(text, chapters):
     sentence_scores = scoreSentences(sentences, freq_table)
     threshold = avgSentenceScore(sentence_scores)
     summary = addSummary(sentences, sentence_scores, 1.5 * threshold)
-    # formatted_summary = summary.replace("\\n", "")
-    footnotes.append(summary)
+    footnotes.append(formatSummary(summary).rstrip())
 
   return footnotes
 # end func()

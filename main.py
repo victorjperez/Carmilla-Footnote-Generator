@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
-from nltk import *
+import nltk
 import re
-from interpreter import *
+import interpreter
+__import__('interpreter')
+# import importlib
+
+# interpreterModule = input('interpreter')
+# importlib.import_module(interpreterModule)
+
 from urllib import request
 
 
@@ -39,7 +45,7 @@ response = request.urlopen(url)
 raw = response.read().decode('utf8')
 
 text = prepareText(raw)
-tokens = word_tokenize(text)
+tokens = nltk.word_tokenize(text)
 lines = text.split('\n')
 chapters = []
 chapterNames = []
@@ -75,7 +81,7 @@ outputFile = open("output_file.txt", "w+")
 outputFile.write(titleBlurb)
 
 fullTextTrimmed = concatChapters(chapters)
-footnotes = summarizeText(fullTextTrimmed, chapters)
+footnotes = interpreter.summarizeText(fullTextTrimmed, chapters)
 
 for number, chapter in enumerate(chapters):
     outputFile.write(chapterRomanNumerals[number])
@@ -85,10 +91,10 @@ for number, chapter in enumerate(chapters):
         outputFile.write(chapterNames[number-1])
     outputFile.write(chapter)
     outputFile.write(
-        '\n\n[------------------------------[SUMMARY]------------------------------]\n')
-    outputFile.write(footnotes[number] + '\n')
+        '\n\n[------------------------------------[SUMMARY]------------------------------------]\n')
+    outputFile.write('\n' + footnotes[number] + '\n')
     outputFile.write(
-        '\n[-----------------------------------------------------------------------]\n')
+        '\n[---------------------------------------------------------------------------------]\n\n')
 
 outputFile.close()
 
