@@ -5,42 +5,45 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize, sent_tokenize
 
-#format of gutenburg book beginning
+# format of gutenburg book beginning
 #start_of_txt = "\*\*\*\s[a-zA-Z\s]+\s\*\*\*"
 
 # format of gutenburg book ending
 #end_of_txt = "\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*\s\s\s\s\s\s\s\*"
 
-  # #book title
-  # title = ''
-  # #book author
-  # author = ''
-  # #book year
-  # year = ''
+# #book title
+# title = ''
+# #book author
+# author = ''
+# #book year
+# year = ''
+
 
 def formatSummary(summary):
   # set lines to be 80 characters long
-  t1 = summary.replace("\n", " ")
-  t1 = t1.replace("\r", " ")
-  t1 = t1.replace("\r\n", " ")
-  t1 = t1.replace("\v", " ")
-  t1 = t1.replace("\x85", " ")
-  t1 = t1.replace("\f", " ")
+    t1 = summary.replace("\n", " ")
+    t1 = t1.replace("\r", " ")
+    t1 = t1.replace("\r\n", " ")
+    t1 = t1.replace("\v", " ")
+    t1 = t1.replace("\x85", " ")
+    t1 = t1.replace("\f", " ")
 
-  t1 = re.sub(' +', ' ', t1)
+    t1 = re.sub(' +', ' ', t1)
 
-  lines = 1
-  # new_summary = ""
+    lines = 1
+    # new_summary = ""
 
-  for i in range(len(t1)):
-    if len(t1) <= 80:
-      return t1
-    if i >= lines*80 and t1[i] == " ":
-      lines = lines + 1
-      t1 = (t1[:i] + '\n' + t1[i:]).rstrip()
-  return t1
+    for i in range(len(t1)):
+        if len(t1) <= 80:
+            return t1
+        if i >= lines*80 and t1[i] == " ":
+            lines = lines + 1
+            t1 = (t1[:i] + '\n' + t1[i:]).rstrip()
+    return t1
 
 # frequency table of entire novel = text
+
+
 def getFreqTable(text) -> dict:
 
     stop_words = set(stopwords.words("english"))
@@ -59,6 +62,7 @@ def getFreqTable(text) -> dict:
 
     return freq_table
 
+
 def scoreSentences(sentences, freq_table) -> dict:
     sentence_value = dict()
 
@@ -71,9 +75,11 @@ def scoreSentences(sentences, freq_table) -> dict:
                 else:
                     sentence_value[sentence[:10]] = freq_table[word_value]
 
-        sentence_value[sentence[:10]] = sentence_value[sentence[:10]] // word_count_in_sentence
+        sentence_value[sentence[:10]] = sentence_value[sentence[:10]
+                                                       ] // word_count_in_sentence
 
     return sentence_value
+
 
 def avgSentenceScore(sentence_value) -> int:
     sum_of_values = 0
@@ -85,29 +91,32 @@ def avgSentenceScore(sentence_value) -> int:
 
     return avg
 
+
 def addSummary(sentences, sentence_value, threshold):
-  sentence_count = 0
-  summary = ''
+    sentence_count = 0
+    summary = ''
 
-  for sentence in sentences:
-      if sentence[:10] in sentence_value and sentence_value[sentence[:10]] > (threshold):
-          summary += " " + sentence
-          sentence_count += 1
+    for sentence in sentences:
+        if sentence[:10] in sentence_value and sentence_value[sentence[:10]] > (threshold):
+            summary += " " + sentence
+            sentence_count += 1
 
-  return summary
+    return summary
 
-  # chapter: chapter from the .txt file retrieved from gutenberg.org; in this case, Carmilla (1872)
+    # chapter: chapter from the .txt file retrieved from gutenberg.org; in this case, Carmilla (1872)
+
+
 def summarizeText(text, chapters):
 
-  freq_table = getFreqTable(text)
-  footnotes = []
+    freq_table = getFreqTable(text)
+    footnotes = []
 
-  for chapter in chapters:
-    sentences = sent_tokenize(chapter)
-    sentence_scores = scoreSentences(sentences, freq_table)
-    threshold = avgSentenceScore(sentence_scores)
-    summary = addSummary(sentences, sentence_scores, 1.5 * threshold)
-    footnotes.append(formatSummary(summary).rstrip())
+    for chapter in chapters:
+        sentences = sent_tokenize(chapter)
+        sentence_scores = scoreSentences(sentences, freq_table)
+        threshold = avgSentenceScore(sentence_scores)
+        summary = addSummary(sentences, sentence_scores, 1.5 * threshold)
+        footnotes.append(formatSummary(summary).rstrip())
 
-  return footnotes
+    return footnotes
 # end func()

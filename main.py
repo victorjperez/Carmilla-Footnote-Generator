@@ -1,18 +1,12 @@
 #!/usr/bin/env python3
+from urllib import request
 import nltk
 import re
 import interpreter
 __import__('interpreter')
-# import importlib
-
-# interpreterModule = input('interpreter')
-# importlib.import_module(interpreterModule)
-
-from urllib import request
 
 
 def prepareText(text):
-
     # text content; the actual content of the book, excluding the gutenberg header and footer(license details)
     content = ''
 
@@ -26,18 +20,12 @@ def prepareText(text):
 
     return content
 
+
 def concatChapters(chapters):
-  text= ''
-  for chapter in chapters:
-      text += str(chapter)
-  return text
-
-
-# def findKeyWords(clippedText):
-#     frequencyDist = FreqDist(clippedText)
-
-#     return sorted(w for w in set(clippedText)
-#                   if len(w) > 10 and frequencyDist[w] < 5)
+    text = ''
+    for chapter in chapters:
+        text += str(chapter)
+    return text
 
 
 url = "http://www.gutenberg.org/cache/epub/10007/pg10007.txt"
@@ -69,14 +57,6 @@ chapters[1] = chapters[1].lstrip()
 print(chapters[1])
 titleBlurb = chapters.pop(0)
 
-# for number, chapter in enumerate(chapters):
-#     if (number < 5):
-#         print(str(number) + ": " + chapter)
-
-# print(chapterNames)
-# interpretText(text)
-#  # print(findKeyWords(tokens))
-
 outputFile = open("output_file.txt", "w+")
 outputFile.write(titleBlurb)
 
@@ -97,5 +77,3 @@ for number, chapter in enumerate(chapters):
         '\n[---------------------------------------------------------------------------------]\n\n')
 
 outputFile.close()
-
-
